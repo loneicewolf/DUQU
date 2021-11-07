@@ -6,3 +6,31 @@ nfrd965.sys
  - https://www.virustotal.com/gui/file/9d88425e266b3a74045186837fbd71de657b47d11efefcf8b3cd185a884b5306/community
  - https://www.welivesecurity.com/2011/10/25/win32duqu-its-a-date/
 
+---VERSION---
+FILEVERSION    4,33,0,12
+PRODUCTVERSION 4,33,0,12
+FILEFLAGSMASK  0x0
+FILEFLAGS      0x0
+FILEOS         VOS_NT_WINDOWS32
+FILETYPE       VFT_DRV
+FILESUBTYPE    0x0
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904b0"
+    {
+      VALUE "CompanyName",       "IBM Corporation ©"
+      VALUE "FileDescription",   "IBM ServeRAID Controller Driver"
+      VALUE "FileVersion",       "4.33.0.12"
+      VALUE "InternalName",      "nfrd965.sys"
+      VALUE "InternalCopyright", "(C) Copyright IBM Corp. 1994, 2002."
+      VALUE "OriginalFilename",  "nfrd965.sys"
+      VALUE "ProductName",       "IBM ServeRAID Contoller"
+      VALUE "ProductVersion",    "4.33.0.12"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x409, 1200
+  }
+}
